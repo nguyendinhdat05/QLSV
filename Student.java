@@ -45,5 +45,12 @@ public class Student {
         this.age = age;
     }
 
-
+    @Override
+    public String toString() {
+        return "Student" +
+                "ID :" + id +"\n" +
+                "Họ Và Tên: " + name + "\n" +
+                "Điểm: " + score +"\n" +
+                "Tuổi: " + age ;
+    }
 }
